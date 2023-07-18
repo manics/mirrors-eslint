@@ -4,7 +4,7 @@
     entry: eslint
     language: node
     'types': [javascript]
-    args: []
+    args: [--fix]
     require_serial: false
     additional_dependencies: ["eslint@8.45.0"]
     minimum_pre_commit_version: '0'
